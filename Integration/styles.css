@@ -1,0 +1,68 @@
+/* Full-page background image 
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("images/Backk.jpg"); /* relative to static/ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}*/
+/* Background video styling */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Remove background image now */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+

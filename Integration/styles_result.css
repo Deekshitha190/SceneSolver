@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("images/Backk.jpg"); /* Same background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Background video */
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Overlay to darken video and center content */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.result-container {
+  background: rgba(0, 0, 0, 0.6); /* Transparent dark background */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: none;
+  width: 90%;
+  max-width: 600px;
+  text-align: left;
+  color: white;
+}
+
+/* Headings */
+.result-container h1,
+.result-container h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Paragraphs */
+.result-container p {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+/* Lists */
+.result-container ul {
+  padding-left: 20px;
+  color: #ccc;
+}
+
+/* Back link */
+.result-container a {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #09a8a8;
+  text-decoration: none;
+}
+
+.result-container a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: code blocks */
+.result-container pre {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+  color: #00ffff;
+  font-size: 14px;
+}

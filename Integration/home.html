@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - Scene Solver</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles_home.css') }}">
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="{{ url_for('static', filename='videos/background1.mp4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Overlay to center content -->
+  <div class="overlay">
+    <div class="home-container">
+      <h1>Welcome to Scene Solver</h1>
+      <form method="POST" action="/" enctype="multipart/form-data">
+        <label for="video">Upload a video:</label>
+        <input type="file" name="video" accept="video/*" required>
+        <button type="submit">Analyze Video</button>
+      </form>
+      <a href="{{ url_for('index') }}">Back to Index</a>
+    </div>
+  </div>
+
+</body>
+</html>
+
+

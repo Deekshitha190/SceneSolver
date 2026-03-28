@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Scene Solver</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles_login.css') }}">
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="{{ url_for('static', filename='videos/background1.mp4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Overlay to center login container -->
+  <div class="overlay">
+    <div class="login-container">
+      <form class="login-form" method="POST">
+        <h2>Login</h2>
+        <input type="text" name="username" placeholder="Username" required><br><br>
+        <input type="password" name="password" placeholder="Password" required><br><br>
+        <button type="submit">Login</button><br><br>
+
+        {% if error %}
+          <p style="color:red;">Enter correct password</p>
+        {% endif %}
+
+        <p><a href="{{ url_for('signup') }}" class="signup-link">Don't have an account? Sign up</a></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

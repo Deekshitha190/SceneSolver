@@ -1,0 +1,258 @@
+/* Full screen background image */
+ /* body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("images/Backk.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+ 
+
+/* #bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+ 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+
+.login-container {
+  background: rgba(0, 0, 0, 0.6); 
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  width: 300px;
+}
+
+.login-form input, .login-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-form button {
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #000000;
+}
+.signup-link {
+  color: #09a8a8; 
+  text-decoration: none; 
+}
+
+.signup-link:hover {
+  color: #120101; 
+}  */
+ /* Background Video Styling
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Dark overlay on top of video 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Slight dark overlay 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login box 
+.login-container {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black 
+  padding: 30px 25px;
+  border-radius: 12px;
+  width: 320px;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Heading inside login box 
+.login-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Input fields and button 
+.login-form input,
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login-form input {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.login-form button {
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #000000;
+}
+
+/* Sign-up link 
+.signup-link {
+  color: #09a8a8;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.signup-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Make text centered below form 
+.login-form p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+}
+ */
+/*lastttt*/
+/* Background Video Styling */
+#bgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Fullscreen overlay to darken video and center content */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login box styling */
+.login-container {
+  background: rgba(0, 0, 0, 0.6); 
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Input and button */
+.login-form input,
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-form button {
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #000000;
+}
+
+/* Signup link */
+.signup-link {
+  color: #09a8a8;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signup-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Optional: center text below form */
+.login-form p {
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
+}

@@ -51,8 +51,11 @@ T5 Transformer
 Scene Summary
      ↓
 Flask Web Application
+```
 
 ## Project Structure
+
+```text
 SceneSolver/
 │
 ├── 3D ResNet Model/
@@ -80,3 +83,4 @@ SceneSolver/
 │   └── CSS files
 │
 └── .gitignore
+```
